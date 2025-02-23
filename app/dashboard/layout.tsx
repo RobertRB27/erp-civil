@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { HomeIcon, HistoryIcon, CalculatorIcon, FolderIcon, DollarSignIcon } from "lucide-react";
+import { HomeIcon, HistoryIcon, CalculatorIcon, FolderIcon, DollarSignIcon, HardHat } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -30,8 +30,8 @@ function Sidebar({ className }: SidebarProps) {
       <div className="flex h-full flex-col">
         <div className="flex h-14 items-center border-b px-6">
           <Link href="/dashboard" className="flex items-center gap-2 font-semibold">
-            <HomeIcon className="h-6 w-6" />
-            <span>Dashboard</span>
+            <HardHat className="h-6 w-6" />
+            <span>ERP Proyectos Civil</span>
           </Link>
         </div>
         <ScrollArea className="flex-1">
